@@ -1,0 +1,42 @@
+.App {
+  background-color: rgb(250, 213, 232);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component{
+  height: 575px;
+  width: 450px;
+  background-color: white;
+  border-radius: 0.3rem;
+  position: relative;
+}
+
+.title {
+  font-size: 30px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.list {
+  position: absolute;
+  top: 62.5px;
+}
+
+.button{
+  position: absolute;
+  top: 528.75px;
+  left: 30px;
+  width: 390px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: rgb(141, 52, 224);
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+

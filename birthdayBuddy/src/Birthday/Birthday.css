@@ -1,0 +1,29 @@
+.Birthday{
+    height: 90px;
+    width: 450px;
+    position: relative;
+}
+
+.Birthday img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.Birthday .name {
+    position: absolute;
+    top: 15px;
+    left: 85px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Birthday .age {
+    position: absolute;
+    top: 55px;
+    left: 85px;
+    color: gray;
+}
