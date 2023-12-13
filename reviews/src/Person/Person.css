@@ -7,6 +7,34 @@
     font-family: cursive;
 }
 
+.Person .round {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    z-index: 0;
+    position: absolute;
+    top: 25px;
+    left: 240px;
+}
+
+.Person .apostrophe {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 205px;
+}
+
 .Person img{
     width: 150px;
     height: 150px;
@@ -32,7 +60,6 @@
 .Person .text {
     position: absolute;
     top: 250px;
-    background-color: blue;
     width: 560px;
     text-align: center;
 }

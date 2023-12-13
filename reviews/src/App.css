@@ -11,4 +11,40 @@
   height: 500px;
   background-color: white;
   box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.5);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.change {
+  position: absolute;
+  top: 330px;
+  left: 255px;
+}
+
+#less , #more {
+  font-size: 30px;
+  font-weight: bolder;
+  color: cadetblue;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 0.2rem;
+  border: 0px;
+  height: 40px;
+  width: 130px;
+  position: absolute;
+  top: 400px;
+  cursor: pointer;
+  color: rgb(13, 0, 255);
+  background-color: rgb(179, 108, 245);
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  color:rgb(179, 108, 245) ;
+  background-color: rgb(13, 0, 255);
 }

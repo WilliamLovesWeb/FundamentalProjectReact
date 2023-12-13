@@ -15,6 +15,8 @@ const Person = ({name,job,text,image}) => {
     }
   return (
     <div className="Person">
+        <div className='round'></div>
+        <div className='apostrophe'>’’</div>
         <img src={image} alt={name + ' photo'} />
         <div className="name">{capitalizeWords(name)}</div>
         <div className="job">{job.toUpperCase()}</div>
