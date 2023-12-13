@@ -1,0 +1,35 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  font-family: system-ui;
+  font-size: 40px;
+  width: 200px;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+}
+
+.border {
+  width: 120px;
+  height: 6px;
+  background-color: #23ad58;
+  position: relative;
+  top: 110px;
+  right: 7px;
+}
+
+.tours {
+  position: absolute;
+  top: 150px;
+  background-color: brown;
+  width: 1000px;
+  height: 1300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 700px;
+}
