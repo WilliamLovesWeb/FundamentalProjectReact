@@ -1,0 +1,41 @@
+.question {
+    position: relative;
+    background-color: white;
+    
+}
+
+.frame2 {
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.701);
+    z-index: 1;
+}
+
+.title2 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 19px;
+}
+
+.button {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: rgb(0, 204, 255);
+    border-radius: 50%;
+    border: none;
+    font-size: 19px;
+    background-color: black;
+}
+
+.info {
+    position: absolute;
+    left: 15px;
+    top: 60px;
+}
