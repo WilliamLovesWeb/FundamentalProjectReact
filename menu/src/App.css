@@ -1,0 +1,56 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.title {
+  font-family: system-ui;
+  font-size: 40px;
+  width: 200px;
+  font-weight: 600;
+  position: absolute;
+  top: 50px;
+}
+
+.border {
+  width: 120px;
+  height: 6px;
+  background-color: #fd8300;
+  position: relative;
+  top: 110px;
+  right: 7px;
+}
+
+.search {
+  position: absolute;
+  top: 140px;
+  background-color: #2600fd;
+  height: 60px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.All , .Breakfast , .Lunch , .Shakes {
+  background-color: #fd8300;
+  border: none;
+  color: white;
+  height: 30px;
+  letter-spacing: 0.15rem;
+  padding: 0 10px;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.ListMenu {
+  position: absolute;
+  top: 200px;
+  background-color: aquamarine;
+  width: 900px;
+  height: 549px;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+}
