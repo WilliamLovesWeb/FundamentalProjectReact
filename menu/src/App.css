@@ -26,7 +26,6 @@
 .search {
   position: absolute;
   top: 140px;
-  background-color: #2600fd;
   height: 60px;
   width: 400px;
   display: flex;
@@ -45,12 +44,16 @@
   cursor: pointer;
 }
 
+.All:hover , .Breakfast:hover , .Lunch:hover , .Shakes:hover {
+  background-color: #bb5a00;
+}
+
 .ListMenu {
   position: absolute;
   top: 200px;
-  background-color: aquamarine;
-  width: 900px;
+  width: 1000px;
   height: 549px;
   display: grid;
-  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
 }
