@@ -1,0 +1,22 @@
+.SingleItem{
+    margin-bottom: 10px;
+    position: relative;
+    left: 20px;
+}
+
+#item {
+    position: absolute;
+    left: 30px;
+    font-weight: 600;
+}
+
+.removeButton{
+    position: absolute;
+    right: 8%;
+    background-color: black;
+    color: white;
+    height: 20px;
+    letter-spacing: 0.1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}

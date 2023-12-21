@@ -1,0 +1,8 @@
+html, body, #root {
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(247, 255, 255);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
