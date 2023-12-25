@@ -1,0 +1,15 @@
+.Item{
+    position: relative;
+}
+
+.percentage{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.color{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
